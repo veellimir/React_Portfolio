@@ -36,6 +36,10 @@
     #new-collection_it {
         top: 850px;
     }
+    main {
+        top: 950px;
+        left: 19%;
+    }
 }
 @media(max-width: 1170px) {
     .content_left h1 {
@@ -89,6 +93,10 @@
     }
     #new-collection_it {
         top: 750px;
+    }
+    main {
+        top: 850px;
+        left: 19%;
     }
 }
 @media(max-width: 889px) {
@@ -149,6 +157,27 @@
         text-align: center;
         top: 600px;
     }
+      main {
+        top: 700px;
+        left: 19%;
+    }
+}
+@media(max-width: 652px) {
+    .item img {
+        width: 100px;
+    }
+    .item h2 {
+        font-size: 15px;
+    }
+    #vect_next_img  {
+        display: none;
+    } 
+}
+@media(max-width: 516px) {
+    main {
+        left: 10%;
+        transform: translate(-10%);
+    }
 }
 @media(max-width: 443px) {
     .content_left p {
@@ -168,6 +197,10 @@
     .content_left img {
         display: none;
     }
+    .item img{
+        width: 60px;
+        padding-left: 0;
+    }
 }
 /* миним экран */
 @media(max-width: 373px) {
@@ -182,5 +215,8 @@
     }
     #new-collection_it {
        left: 110px;
+    }
+    main {
+        left: 30px;
     }
 }
