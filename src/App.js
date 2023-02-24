@@ -27,11 +27,11 @@ class App extends React.Component {
           price: '900 ₽',
         },
         {
-          id: 2,
-          title: 'Купальник Glow',
-          img: 'swim.png',
+          id: 3,
+          title: 'Свитшот Sweet Shot',
+          img: 'owerlay.png',
           category: 'swimsuit',
-          price: '900 ₽',
+          price: '1800 ₽',
         },
       ]
     }
