@@ -1,0 +1,153 @@
+@media(max-width: 1434px) {
+    .content_right {
+        width: 550px;
+        height: 730px;
+    }
+    #girl_img {
+        width: 334px;
+        height: 552px;
+    }
+    #girl_img2 {
+        position: relative;
+        top: 450px;
+        right: 70px;
+        
+    }
+    #girl_img3 {
+        position: relative;
+        left: 100px;
+        top: 60px;
+        width: 150px;
+    }
+}
+@media(max-width: 1256px) {
+    .nav li {
+        margin-right: 50px;
+    }
+    #girl_img2_end {
+        position: relative;
+        top: 450px;
+        right: 70px;
+        width: 200px;
+    }
+    .content_right {
+        width: 500px;
+    }
+    #new-collection_it {
+        top: 850px;
+    }
+}
+@media(max-width: 1170px) {
+    .content_left h1 {
+        font-size: 45px;
+    }
+    .content_left button {
+        margin:50px 50px;
+    }
+    .content_left img {
+        left: -10px;
+    }
+    .content_left p {
+        text-align: left;
+    }
+}
+@media(max-width: 1066px) {
+    .nav{
+        text-align: left;
+        margin-top: 30px;
+        padding-left: 30px;
+    }
+    .logo {
+        top: 10px;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    .content_right {
+        width: 350px;
+        height: 530px;
+    }
+    #girl_img {
+        width: 234px;
+        height: 352px;
+        margin: 20px;
+    }
+    #girl_img3 {
+        position: relative;
+        left: 80px;
+        top: 70px;
+        width: 100px;
+    }
+    #girl_img2_end {
+        position: relative;
+        top: 350px;
+        right: 50px;
+        height: 200px;
+        width: 150px;
+    }
+    .content_left {
+        top: 150px;
+    }
+    #new-collection_it {
+        top: 750px;
+    }
+}
+@media(max-width: 889px) {
+    .content_left {
+        left: 15%;
+    }
+    .content_left h1 {
+        font-size: 35px;
+    }
+    .content_left p {
+        font-size: 15px;
+    }
+    #new-collection_it {
+        top: 750px;
+    }
+}
+
+@media(max-width: 845px) {
+    .nav {
+        display: none;
+    }
+    .call_string {
+        margin:  -40px;
+        margin-right: -50px;
+    }
+    .call_string  {
+       display: none;
+    }
+    .content_right {
+        height: 352px;  
+    }
+    #icon_mobile {
+        display: block;
+        cursor: pointer;
+    }
+}
+@media(max-width: 833px) {
+    #girl_img, #girl_img2_end, #girl_img3 {
+        display: none;
+    }
+    .content_right {
+        left: 0;
+        width: 100%;
+        height: 470px;
+    }
+    .content_left {
+        top: 70px;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    .logo {
+        position: absolute;
+        left: 35%;
+        transform: translate(-40%);
+        margin-left: 0;
+    }
+    #new-collection_it {
+        left: 35%;
+        text-align: center;
+        top: 600px;
+    }
+}
